@@ -48,6 +48,10 @@
 5. **[Shell Script to Print 1 to n](#shell-script-to-print-numbers-from-1-to-n)**
 6. **[Shell Script to Check If a Number is Even or Odd](#shell-script-to-check-if-a-number-is-even-or-odd)**
 7. **[Shell Script to Print a Pattern of Stars](#shell-script-to-print-a-pattern-of-stars)**
+8. **[Shell Script to Reverse a Number](#shell-script-to-reverse-a-number)**
+9. **[Shell Script to Check if a Number is Prime or Not](#shell-script-to-check-if-a-number-is-prime-or-not)**
+10. **[Shell Script to Perform Binary Search](#shell-script-to-perform-binary-search)**
+
 
 ---
 
@@ -385,3 +389,182 @@ sh pattern.sh
   * * * * * 
 * * * * * * *
 ```
+
+---
+
+### Shell Script to Reverse a Number
+
+**Question**: Write a shell script to reverse a number.
+
+To create and edit the shell script, use the following command:
+```bash
+nano reverse_number.sh
+```
+
+#### Code
+```bash
+# Input number
+echo "Enter a number:"
+read num
+
+# Reverse the number
+reverse=0
+while [ $num -gt 0 ]
+do
+    remainder=$(( num % 10 ))
+    reverse=$(( reverse * 10 + remainder ))
+    num=$(( num / 10 ))
+done
+
+# Display reversed number
+echo "Reversed number: $reverse"
+```
+
+To save the file, press `Ctrl + O`, then press `Enter`.  
+To exit, press `Ctrl + X`.
+
+To Run the Script:
+```bash
+sh reverse_number.sh
+```
+
+#### Output:
+```bash
+Enter a number:
+12345
+Reversed number: 54321
+```
+
+---
+
+### Shell Script to Check if a Number is Prime or Not
+
+**Question**: Write a shell script to check if a number is prime or not.
+
+To create and edit the shell script, use the following command:
+```bash
+nano prime_check.sh
+```
+
+#### Code
+```bash
+# Input number
+echo "Enter a number:"
+read num
+
+# Check if number is prime
+if [ $num -le 1 ]; then
+    echo "$num is not a prime number"
+else
+    flag=0
+    i=2
+    while [ $i -le $(( num / 2 )) ]
+    do
+        if [ $(( num % i )) -eq 0 ]; then
+            flag=1
+            break
+        fi
+        i=$(( i + 1 ))
+    done
+
+    if [ $flag -eq 0 ]; then
+        echo "$num is a prime number"
+    else
+        echo "$num is not a prime number"
+    fi
+fi
+```
+
+To save the file, press `Ctrl + O`, then press `Enter`.  
+To exit, press `Ctrl + X`.
+
+To Run the Script:
+```bash
+sh prime_check.sh
+```
+
+#### Output:
+```bash
+Enter a number:
+7
+7 is a prime number
+```
+
+---
+
+### Shell Script to Perform Binary Search
+
+**Question**: Write a shell script to perform binary search.
+
+To create and edit the shell script, use the following command:
+```bash
+nano binary_search.sh
+```
+
+#### Code
+```bash
+# Input number of elements
+echo "Enter the number of elements:"
+read n
+
+# Input elements in sorted order
+echo "Enter the elements in sorted order:"
+i=0
+while [ $i -lt $n ]
+do
+    read arr[i]
+    i=$(( i + 1 ))
+done
+
+# Input element to search
+echo "Enter the element to search:"
+read key
+
+# Binary search logic
+low=0
+high=$(( n - 1 ))
+found=0
+
+while [ $low -le $high ]
+do
+    mid=$(( (low + high) / 2 ))
+    
+    if [ ${arr[mid]} -eq $key ]; then
+        found=1
+        break
+    elif [ ${arr[mid]} -lt $key ]; then
+        low=$(( mid + 1 ))
+    else
+        high=$(( mid - 1 ))
+    fi
+done
+
+# Display result
+if [ $found -eq 1 ]; then
+    echo "Element $key found at position $(( mid + 1 ))"
+else
+    echo "Element $key not found"
+fi
+```
+
+To save the file, press `Ctrl + O`, then press `Enter`.  
+To exit, press `Ctrl + X`.
+
+To Run the Script:
+```bash
+sh binary_search.sh
+```
+
+#### Output:
+```bash
+Enter the number of elements:
+5
+Enter the elements in sorted order:
+1 3 5 7 9
+Enter the element to search:
+7
+Element 7 found at position 4
+```
+
+---
+
