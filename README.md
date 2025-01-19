@@ -1,7 +1,3 @@
-It seems like the links in your repository's README file need to be corrected. Based on the structure of your directory and assuming the files exist as described, I'll help fix the links for you. Here's the corrected version of your README with proper links:
-
----
-
 # Project: Page Replacement Algorithms and Linux Commands
 
 Welcome to the repository! This is the repository for Operating System Lab (PCCCSD593), featuring Linux-based tasks, shell scripting basics, process scheduling algorithms, memory management, file systems, synchronization, and simple OS programs.
@@ -35,6 +31,24 @@ Welcome to the repository! This is the repository for Operating System Lab (PCCC
 All the commonly used Linux commands, shell scripting basics, and explanations are provided in the [**Linux.md**](./Linux.md) file. You can click the link to explore various commands such as:
 - `pwd`, `date`, `mkdir`, `ls`, `cat`, `rm`, and more.
 - Shell scripting basics like `echo`, `read`, `exit`.
+
+### Compiling C Programs in Unix terminals:
+- **`gcc`**: The GNU Compiler Collection for compiling C programs.
+  - Compile a C program: `gcc filename.c -o outputname`
+  - Example: `gcc hello.c -o hello`
+  - Run the compiled program: `./outputname`
+  - Example: `./hello`
+  
+- **`g++`**: Compiler for C++ programs (if working with C++).
+  - Compile a C++ program: `g++ filename.cpp -o outputname`
+  - Example: `g++ program.cpp -o program`
+  - Run the compiled program: `./program`
+  
+- **`cc`**: The C Compiler (often an alias for `gcc`).
+  - Compile a C program: `cc filename.c -o outputname`
+  - Example: `cc hello.c -o hello`
+  - Run the compiled program: `./hello`
+
 
 ---
 
