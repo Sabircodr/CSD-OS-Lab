@@ -26,15 +26,16 @@ All the commonly used Linux commands, shell scripting basics, and explanations a
 Below are the links to the C programs implementing different Page Replacement algorithms. Click on the links to view the full code:
 
 ### **Page Replacement - FIFO**
-[Program 1 - FIFO](./c-programs/first-in-first-out.c)  
+
+[Program 1 - FIFO](./c-programs/fifo-page-replacement.md)  
 This program implements the **FIFO (First-In, First-Out)** page replacement algorithm. It handles page requests and replaces pages in the memory using FIFO.
 
 ### **Page Replacement - Optimal**
-[Program 2 - Optimal](./c-programs/optimal.c)  
+[Program 2 - Optimal](./c-programs/optimal-page-replacement.md)  
 This program demonstrates the **Optimal** page replacement algorithm. It replaces the page that will not be used for the longest period in the future.
 
 ### **Page Replacement - LRU**
-[Program 3 - LRU](./c-programs/lru.c)  
+[Program 3 - LRU](./c-programs/lru-page-replacement.md)  
 This program simulates the **Least Recently Used (LRU)** page replacement algorithm. It replaces the page that has not been used for the longest period.
 
 ---
