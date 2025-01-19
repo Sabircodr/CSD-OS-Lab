@@ -10,7 +10,7 @@
    - Code
    - Output
 
-3. [Program 3: Zombie Process](#program-3)
+3. [Program 3: Orphan Process](#program-3)
    - Code
    - Output
   
