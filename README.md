@@ -5,7 +5,7 @@ Welcome to the repository! This is the repository for Operating System Lab (PCCC
 
 ## **Table of Contents**
 
-1. [Linux Commands](#linux-commands)
+1. [Linux Commands and Codes](#linux-commands)
 2. [C Programs](#c-programs)
     - [Page Replacement - FIFO](#page-replacement---fifo)
     - [Page Replacement - Optimal](#page-replacement---optimal)
