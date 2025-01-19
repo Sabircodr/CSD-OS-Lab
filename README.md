@@ -15,6 +15,8 @@ Welcome to the repository! This is the repository for Operating System Lab (PCCC
 
 ## **Linux Commands**
 
+> Codes in Linux 👉👉[**Linux.md**](./Linux.md) or the shell script codes
+
 All the commonly used Linux commands, shell scripting basics, and explanations are provided in the [**Linux.md**](./Linux.md) file. You can click the link to explore various commands such as:
 - `pwd`, `date`, `mkdir`, `ls`, `cat`, `rm`, and more.
 - Shell scripting basics like `echo`, `read`, `exit`.
