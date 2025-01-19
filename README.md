@@ -15,6 +15,7 @@ Welcome to the repository! This is the repository for Operating System Lab (PCCC
         - [FIFO Page Replacement](#fifo-page-replacement)
         - [Least Recently Used (LRU) Page Replacement](#least-recently-used-lru-page-replacement)
         - [Optimal Page Replacement](#optimal-page-replacement)
+        - [Paging technique of Memory Management](#simulate-paging-technique-of-memory-management)
     - [Deadlock Avoidance Algorithm](#deadlock-avoidance-algorithm)
         - [Banker's Algorithm](#bankers-algorithm)
 3. [Process Management](#process-management)
@@ -89,6 +90,9 @@ This program simulates the **Least Recently Used (LRU)** page replacement algori
 [Program 7 - Optimal](./c-programs/optimal-page-replacement.md)  
 This program demonstrates the **Optimal** page replacement algorithm. It replaces the page that will not be used for the longest period in the future.
 
+#### **Simulate Paging Technique of Memory Management**
+[Program 8 - Simulate Paging](./c-programs/simulate-paging-technique.md)  
+This program simulates the **Paging Technique of Memory Management**, where multiple pages are allocated memory, and their addresses are displayed.
 
 ### **Deadlock Avoidance Algorithm**
 
