@@ -35,6 +35,18 @@
 - **`read`**: Read user input from the terminal. Example: `read name`
 - **`exit`**: Exit from the script or terminal. Example: `exit`
 
+### Text Editors for Shell Scripting:
+- **`nano`**: A simple terminal-based text editor.
+  - Open a file: `nano filename.sh`
+  - Save and exit: Press `Ctrl + O`, then `Enter`, and `Ctrl + X`
+  
+- **`vim`**: A more advanced text editor with extensive features.
+  - Open a file: `vim filename.sh`
+  - Save and exit: Press `Esc`, then type `:wq` and press `Enter`
+  
+- **`cat`**: Display the content of a file.
+  - View a file: `cat filename.sh`
+
 ---
 
 ## Programs
