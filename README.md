@@ -1,4 +1,4 @@
-# Project: Page Replacement Algorithms and Linux Commands
+# Operating System Lab (PCCCSD593):
 
 Welcome to the repository! This is the repository for Operating System Lab (PCCCSD593), featuring Linux-based tasks, shell scripting basics, process scheduling algorithms, memory management, file systems, synchronization, and simple OS programs.
 
