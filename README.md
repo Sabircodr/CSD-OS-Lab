@@ -78,6 +78,10 @@ This program simulates the **Priority Scheduling** algorithm, where processes ar
 
 ### **Page Replacement Algorithms**
 
+To get a better understanding of the logic of the codes or know more about page replacement.  
+##### Visit this page 👇👇
+> [Page Replacement Algorithms: A Comparison and Implementation Guide](https://www.geeksforgeeks.org/community/post/49765/page-replacement-algorithms-a-comparison-and-implementation-guide/)
+
 #### **FIFO Page Replacement**
 [Program 5 - FIFO](./c-programs/fifo-page-replacement.md)  
 This program implements the **FIFO (First-In, First-Out)** page replacement algorithm. It handles page requests and replaces pages in memory using FIFO.
